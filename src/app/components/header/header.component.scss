@@ -1,0 +1,36 @@
+.header {
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  
+
+  
+  .header-content {
+    text-align: center;
+    flex: 1; /* Para que ocupe el espacio disponible y se quede en el centro */
+  }
+  
+  
+  /* Ajustes para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .header-shoes {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+      align-items: center;
+    }
+  
+   
+  
+    .header-content {
+      text-align: center;
+    }
+  }
+  
